@@ -20,3 +20,11 @@ def add(*args):
     return sum
 
 print(add(1,2,3,4,5))
+
+
+####
+def inc(a,b=1):
+    return(a+b)
+a=inc(1)
+a=inc(a,a)
+print(a)
