@@ -14,4 +14,4 @@ def squareFunc():
 squareFunc()
 square.forward(100)
 squareFunc()
-turtle.getscreen()._root.mainloop()  
+turtle.Screen()._root.mainloop()  
