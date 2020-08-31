@@ -35,11 +35,11 @@ print ("Team meetings will be on:")
 for m in range(1,13):
   # returns an array of weeks that represent the month
   cal = calendar.monthcalendar(2018, m)
-#   print(cal)
+#print(cal)
   # The first Friday has to be within the first two weeks
   weekone = cal[0]
   weektwo = cal[1]
-#   print("hahahahahaahah", calendar.month_name[m], weekone[calendar.FRIDAY])
+#print("hahahahahaahah", calendar.month_name[m], weekone[calendar.FRIDAY])
    
   if weekone[calendar.FRIDAY] != 0:
     meetday = weekone[calendar.FRIDAY]
