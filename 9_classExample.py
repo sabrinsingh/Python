@@ -16,10 +16,10 @@ class myAnotherClass():
     
 
 class otherClass():
-    def __init__(self, firstname, middlename, lastname):
-        self.firstname=firstname
+    def __init__(self, fname, middlename, lname):
+        self.firstname=fname
         self.middlename=middlename
-        self.lastname=lastname
+        self.lastname=lname
     
     def name(self):
         print(self.firstname, self.middlename,self.lastname)
