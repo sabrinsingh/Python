@@ -18,3 +18,10 @@ print(datetime.now())
 
 #Get the current time only
 print(datetime.time(datetime.now()))
+
+
+
+# calendar program that needs to print tomorrow's day of the week.
+today=date.today()
+days=["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+print("Tomorrow will be "+days[(today.weekday()+1)%7])
