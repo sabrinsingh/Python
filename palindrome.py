@@ -23,7 +23,7 @@ print(a[::-2]) #from last to first with the step of 2
 
 
 a = '1234'
-print(a[3:0:-1]) 
+print(a[3:0:1]) 
 
 
 a = '1234'
