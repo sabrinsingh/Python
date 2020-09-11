@@ -6,7 +6,7 @@ fruits.pop(0)
 print(fruits)
 
 #append the value to list
-fruits.append('orannge')
+fruits.append('orange')
 print(fruits)
 
 
@@ -14,7 +14,7 @@ print(fruits)
 
 quit= False
 while not quit:
-    inp=input("Enter y to add more fruits and n to quit : y" ).lower()
+    inp=input("Enter y to add more fruits and n to quit : " ).lower()
     if(inp == 'y'):
         fruitname=input("Enter the name of fruit : ")
         fruits.append(fruitname)
@@ -28,4 +28,5 @@ while not quit:
 fruits.sort()
 print(fruits)
 
-
+print(fruits[1]) #indexing
+print(fruits[-1]) #Negative indexing
