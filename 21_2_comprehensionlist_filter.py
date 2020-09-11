@@ -1,5 +1,5 @@
 # WAP to show [1,9,25]
-# This is the square of the order number
+# This is the square of the odds number
 
 result=[x**2 for x in range(6) if x%2!=0]
 print(result)

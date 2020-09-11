@@ -27,7 +27,7 @@ print(result)
 result = [x*i for i in range(1,4) for x in my_list]
 print(result)
 
-my_list=[2,4,5]
+my_list=[2,3,4]
 
 result=[[x] for x in my_list]
 print(result)
@@ -37,3 +37,9 @@ print(result)
 
 result=[[x+i for x in my_list] for i in range(3)]
 print(result)
+
+
+f=input("First : ")
+s=input("Second : ")
+o=input("Operation : ")
+print(f + o + s + " = " ,eval(f + o + s))
