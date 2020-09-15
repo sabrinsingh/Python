@@ -1,0 +1,27 @@
+
+__main__.py //where code is executed from
+
+or 
+
+main.py //with the clause if __name__=="__main__":
+
+gameClasses
+    __init__.py //This defines that a folder is a module
+    Deck.py     //We can put each class in a separate file
+    Player.py
+    GameStatus.py
+
+gameMethods
+    __init__.py
+    gameMethods.py
+
+Notes
+each module should have a __init__.py file that is what
+determines the folder to be a module. Otherwise python 
+wouldn't know that it is a module.
+
+.pyc files are compiled code for run time use. 
+
+There are two common ways to execute python code from "main" files.
+1. Run from __main__.py
+2. Run from main.py with if __name__=="__main__": clause
