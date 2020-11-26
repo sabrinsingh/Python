@@ -43,3 +43,10 @@ f=input("First : ")
 s=input("Second : ")
 o=input("Operation : ")
 print(f + o + s + " = " ,eval(f + o + s))
+
+
+
+for i in range(2, 10, 2):    
+    print(i, end=', ')
+
+print([x for x in range(2,10,2)])
